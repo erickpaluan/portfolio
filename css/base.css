@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* Reset de margens e paddings globais */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Estilos globais */
+body {
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+}
+a {
+  color: #bd5d38;
+  text-decoration: underline;
+}
+a:hover {
+  color: #974a2d;
+}
+img, svg {
+  vertical-align: middle;
+}
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.25;
+}

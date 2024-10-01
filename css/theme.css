@@ -1,0 +1,13 @@
+:root {
+  --bs-primary: #14213d;
+  --bs-primary-hover: #0d1a2b;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-body-color: #212529;
+  --bs-body-bg: #202124;
+}
